@@ -1,0 +1,6 @@
+<launch>
+	<group ns='wheels_ns'>
+		<node name='Wheel_status' pkg='study_pkg' type='wheel_status.py' output='screen'/>
+		<node name='listener_wheels' pkg='study_pkg' type='listener_wheels.py' output='screen'/>
+	</group>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+	<node name="talker_cpp" pkg="study_pkg" type="talker_cpp" output="screen">
+		<remap from="cpp_chatter" to="brother_topic"/>
+	</node>
+	<node name="listener_py" pkg="study_pkg" type="listener.py" output="screen">
+		<remap from="my_chat_topic" to="brother_topic"/>
+	</node>
+</launch>

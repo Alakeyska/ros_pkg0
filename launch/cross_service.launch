@@ -1,0 +1,4 @@
+<launch>
+	<node name="poly_service" pkg="study_pkg" type="poly_service.py" output="screen"/>
+	<node name="summator" pkg="study_pkg" type="summator.py" output="screen"/>
+</launch>	
