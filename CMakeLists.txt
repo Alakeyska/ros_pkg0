@@ -52,6 +52,7 @@ add_message_files(
 	FILES
 	Two_numbers.msg
 	Three_numbers.msg
+	Array_int64.msg
 	Control.msg
 )
 
@@ -59,6 +60,7 @@ add_message_files(
 add_service_files(
 	FILES
 	Poly.srv
+	PolyArray.srv
 
 )
 
