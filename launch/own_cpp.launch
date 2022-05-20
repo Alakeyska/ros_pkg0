@@ -1,0 +1,4 @@
+<launch>
+	<node name="listener_cpp" pkg="study_pkg" type="listener_cpp" output="screen"/>
+	<node name="talker_cpp" pkg="study_pkg" type="talker_cpp" output="screen"/>
+</launch>	
